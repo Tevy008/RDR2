@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+
+body{
+    background-color: #000000;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    height: fit-content;
+    background-color: #c11515;
+    box-sizing: border-box; 
+}
+
+.sticky_nav{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top:20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sticky_nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 30px;
+    height: 220px;
+    text-align: center;
+    background-image: url("background.png");
+}
+
+.sell_butt{
+    padding-top: 60px;
+}
+
+.footer_text{
+    margin-top: 20px;
+}
+
+.footer_button{
+    display:inline-block;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s;
+    z-index: 1;
+}
+
+.block{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    line-height: 24px;
+    box-sizing: border-box;
+    transition: opacity 0.7s ease-in-out;
+}
+
+.main_content{
+    overflow-x: hidden;
+}
+
+.main_slogan{
+    width: 40%;
+    box-sizing: border-box;
+}
+
+main_image-block{
+    display: flex;
+    justify-content: center;
+}
+
+.main_info{
+    float: right;
+    text-align: justify;
+    width: 50%;
+}
+
+.main_about-game{
+    clear: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main_image{
+    height: 500px;
+}
+
+.main_about-image{
+    width: 100%;
+}
+
+.about_hd{
+    margin-right: 3%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.about_dlc{
+    margin-top: 2%;
+    transition: opacity 1.5s ease-in-out;
+}
+
+.about{
+    width: 37%;
+    text-align: center;
+}
+
+.about_weapon{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+}
+
+.weapon span{
+    font-weight: bold;
+}
+
+.weapon_text{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.weapon_list{
+    margin-top: 10px;
+    position: absolute;
+}
+
+.about_screens{
+    transition: opacity 1s ease-in-out;
+}
